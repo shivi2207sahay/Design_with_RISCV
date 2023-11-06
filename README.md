@@ -32,7 +32,7 @@ ways:
 - Double Precision (64 bit): 1 sign bit, 11 bit exponent, and 52 bit mantissa
 - Quadruple Precision (128 bit): 1 sign bit, 15 bit exponent, and 112 bit mantissa
 
-We have used NEWTON'S RAPHSON method for finding the square root. Also we have added a exception signal which goes low whenever there is a negative number encountered.
+We have used NEWTON'S RAPHSON method for finding the square root. Also we have added a exception signal which goes low whenever there is a negative number encountered. Here we have done the implementation of single precision floating point no. 
 
 So before diving into the implementation we must know how is this method works!!
 
@@ -48,6 +48,8 @@ So before diving into the implementation we must know how is this method works!!
 ## Simulation Results:
 
 ![simulation](https://github.com/shivi2207sahay/Design_with_RISCV/assets/141152904/88b562a1-7000-4bfe-88d1-5edfb17905f7)
+
+here we have given input of 100 and the expected output is 10 and we are getting output as 9.9999 which can be approximated to 10 .
 
 ## Post functionality simulation:
 
